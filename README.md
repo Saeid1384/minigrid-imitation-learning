@@ -7,6 +7,10 @@ Imitation learning on MiniGrid `DoorKey-6x6`: the agent has to pick up the key, 
 3. The trained policy plays by itself; when it gets stuck I take over and record corrections (human-gated DAgger).
 4. The policy is retrained from scratch on demos + corrections.
 
+## Demo
+
+![Policy playing DoorKey](assets/demo.gif)
+
 ## Results
 
 Both policies were evaluated on the same 200 fixed layouts (seeds 1000-1199):
